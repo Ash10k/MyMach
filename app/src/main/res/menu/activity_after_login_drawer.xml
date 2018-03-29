@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_assignment"
+            android:fontFamily="@font/elegantlux"
+            android:icon="@drawable/book"
+            android:title="Assignments" />
+        <item
+            android:id="@+id/nav_developer"
+            android:fontFamily="@font/elegantlux"
+            android:icon="@drawable/developer"
+            android:title="Hire Developer" />
+        <item
+            android:id="@+id/nav_bookings"
+            android:fontFamily="@font/elegantlux"
+            android:icon="@drawable/booking"
+            android:title="Your Bookings" />
+        <item
+            android:id="@+id/nav_repair"
+            android:fontFamily="@font/elegantlux"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Repair" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contact_us"
+                android:fontFamily="@font/elegantlux"
+                android:icon="@drawable/phn"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_need_help"
+                android:fontFamily="@font/elegantlux"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Need Help" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ash.mach.Repair">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:textSize="25sp"
+        android:padding="17dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/elegantlux"
+        android:text="Trouble with your computer?\n Why carry it to store we will send technician to your home and the best part of it is that its free." />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/problem_details"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Enter your project description"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Get Technician"
+        android:layout_marginTop="100dp"
+        android:textColor="#fff"
+        android:padding="15dp"
+        android:fontFamily="@font/quesat"
+        android:background="@drawable/roundcornerbutton"
+        android:id="@+id/get_technician"
+        android:layout_gravity="center"/>
+</FrameLayout>

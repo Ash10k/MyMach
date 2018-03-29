@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ash.mach.HireDeveloper">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Want to get your job done but you done know where to get a developer or much worried about the prices you need to pay. Well just get over all the fuss and let our developers help you we will handle all the hard work for you."
+        android:fontFamily="@font/elegantlux"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:padding="17dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/developer_project"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:hint="Enter your project description"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Hire Developer"
+        android:layout_marginTop="100dp"
+        android:textColor="#fff"
+        android:padding="15dp"
+        android:fontFamily="@font/quesat"
+        android:background="@drawable/roundcornerbutton"
+        android:id="@+id/get_developer"
+        android:layout_gravity="center"/>
+</FrameLayout>

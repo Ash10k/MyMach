@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ash.mach.AssignmentsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:textSize="25sp"
+        android:padding="17dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/elegantlux"
+        android:text="In trouble with assignments and final year projects?? Let us worry about the hard part. Regardless of what you do whether your are in School, College or University we will complete that for you." />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/description_assignments"
+        android:layout_marginTop="65dp"
+        android:layout_gravity="center"
+        android:hint="Enter your project description"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Hire Mentor"
+        android:layout_marginTop="130dp"
+        android:textColor="#fff"
+        android:padding="15dp"
+        android:fontFamily="@font/quesat"
+        android:background="@drawable/roundcornerbutton"
+        android:layout_gravity="center"/>
+</FrameLayout>

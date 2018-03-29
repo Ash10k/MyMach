@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ash.mach.AfterLogin">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!--<include layout="@layout/content_after_login" />-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container">
+
+    </FrameLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+   <!-- <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/elegantlux"
+        android:textSize="25sp"
+        android:padding="17dp"
+        android:id="@+id/des"
+        android:text="We provide software as well as hardware solutions to millions of people out there."
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Join Us"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/quesat"
+        android:background="@drawable/roundcornerbutton"
+        android:id="@+id/join_us"
+        android:layout_below="@+id/des"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="Donate"
+        android:textColor="#fff"
+        android:padding="15dp"
+        android:layout_below="@+id/join_us"
+        android:fontFamily="@font/quesat"
+        android:background="@drawable/roundcornerbutton"
+        android:id="@+id/donate"
+        android:layout_gravity="center"/>
+
+    </RelativeLayout>-->
+</android.support.design.widget.CoordinatorLayout>

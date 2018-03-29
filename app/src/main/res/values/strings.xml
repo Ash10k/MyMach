@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mach</string>
+    <string name="title_activity_after_login">DashBoard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">I AM A SNACKBAR</string>
+</resources>
